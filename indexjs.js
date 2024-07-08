@@ -25,9 +25,23 @@ console.log(str+str2)
 
 let number = 123.4;
 let num2 = 23
+let num3 = "false"
 
 let suma = number + num2
 
 console.log("La suma es:",suma)
 
+let multiplicacion = number * num3
+
+console.log("La multiplicacion es:",multiplicacion)
+
 let boolean = false
+
+function evenOdd(){
+
+    const resultado = num2 % 2 === 0 ? "par" : "impar";
+    return resultado
+
+}
+
+console.log(evenOdd())
