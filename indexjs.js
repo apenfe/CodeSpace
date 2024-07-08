@@ -47,8 +47,13 @@ function evenOdd(){
 console.log(evenOdd())
 
 let array = ['manzana','peras','melon'];
-console.log(array)
-console.log(array[0])
+console.log("el array es",array);
+console.log(array[0]);
+let len = array.push(1);
+console.log("el array es de tamaño",len);
+console.log("el array es",array);
+len = array.pop();
+console.log("el array es",array);
 
 array = "antes era un array de frutas, ahora soy un string"
 console.log(array)
