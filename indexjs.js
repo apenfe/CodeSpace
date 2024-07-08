@@ -48,6 +48,7 @@ console.log(evenOdd())
 
 let array = ['manzana','peras','melon'];
 console.log(array)
+console.log(array[0])
 
 array = "antes era un array de frutas, ahora soy un string"
 console.log(array)
