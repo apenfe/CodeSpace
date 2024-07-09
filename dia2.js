@@ -81,3 +81,10 @@ frutas = ['manzana','peras']
 for(let i=0; i<frutas.length; i++){
     console.log(frutas[i])
 }
+
+let counter = 0;
+
+while(counter<100){
+    console.log(counter+1);
+    counter++;
+}
