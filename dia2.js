@@ -59,3 +59,25 @@ let permisoConducir = true;
 
 let coche = (edad>18 && permisoConducir)
 console.log(coche)
+
+// condicionales
+
+if (true){
+
+} else if (!false){
+
+}else{
+
+}
+
+// bucle for
+
+for(let i=0; i<5; i++){
+    console.log(i)
+}
+
+frutas = ['manzana','peras']
+
+for(let i=0; i<frutas.length; i++){
+    console.log(frutas[i])
+}
